@@ -41,7 +41,7 @@ function App() {
     <Authenticator>
       {({ signOut }) => (
         <main>
-          <h1>My todos: Dev branch</h1>
+          <h1>My todos: Production branch</h1>
           <button onClick={createTodo}>+ new</button>
           <ul>
             {todos.map((todo) => (
